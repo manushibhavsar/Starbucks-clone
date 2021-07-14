@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: rgba(0,0,0,.87);
+}
+
+
+/* Navbar  Left Container */
+.navbar{
+    display: flex;
+    margin: 0 6.0rem 0 6.0rem;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.nav-div{
+display: flex;
+justify-content: space-between;
+}
+
+.navbar-brand{
+    width: 10%;
+}
+.navbar-brand img{
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    letter-spacing: 2;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#007146;
+}
+
+.right-container{
+  width: 31.25rem;
+  display: flex;
+  flex-direction: row;
+ justify-content: space-around;
+}
+
+.store-locator {
+    display: flex;
+}
+
+.store-locator span{
+    padding: 5px;
+}
+
+.store-locator span i{
+    font-size: 20px;
+}
+.navbar-button{
+    display: flex;
+}
+
+.sign-in{
+    padding-right:15px ;
+}
+
+.navbar-button button{
+    border-radius: 1.25rem;
+    font-size: 14px;
+    
+}
+
+/* Main */
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+/* Reward Section */
+.reward-section-left-side{
+    background-color: #F1F8F6;
+    color: #1E3932;
+    /* width: 50%;
+    height: 200%; */
+}    
+
+.left-side-heading h4{
+    font-size: 24px;
+}
+
+.left-side-h6 h6{
+    font-size: 20px;
+}
+
+
+/* Iced Beverage */
+.iced-beverage, .frappuccino-section{
+    background-color: #F2F0EB;
+}
+
+.right-side-heading h1{
+     font-size: 51px;
+     letter-spacing: 0.625rem;
+     color: #1E3932;
+     font-weight: bold;
+     line-height: 1.5;
+}
+
+.right-side-heading h6{
+    color: #1E3932;
+    font-size: 25px;
+    letter-spacing: 0.094rem;
+    line-height: 1.5;
+}
+
+.aeroplan-h{
+    color: #1E3932;
+    font-weight: 400;
+    letter-spacing: 0.125rem;
+}
+
+.aeroplan-h6{
+    color: #1E3932;
+    font-size: 16px;
+    letter-spacing: 0.094rem;
+
+}
+
+/* aeroplan */
+.aeroplan-section{
+    background-color: #D4E9E2;
+}
+
+/* Participation Information */
+.participation-information{
+    font-size: 16px;
+}
+
+span a{
+    color: black;
+}
+
+/* CTA */
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #707070;
+}
+
+ul li a:hover{
+    color: black;
+}
+
+/* footer */
+i{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.copyright{
+    color: #707070;
+}
+
+.dropdown-section{
+    display: none;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:990px){
+    .right-container{
+        display:table-cell;
+        vertical-align: bottom;
+    }
+
+    .nav-div{
+        display: block;
+        padding: 20px;
+    }
+   
+    .dropdown-section{
+        display: block;
+    }
+
+    .cta{
+        display: none;
+    }
+    
+    
+}
+
+@media (max-width:575px){
+    .reward-section, .frappuccino-section, .aeroplan-section{
+        display: flex;
+        flex-direction: column-reverse;
+    justify-content: space-evenly;
+    }
+    .iced-beverage{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .dropdown-section{
+        display: block;
+
+    }
+
+    .cta{
+        display: none;
+    }
+
+}
+
+
+
+
+
